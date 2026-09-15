@@ -1,0 +1,8 @@
+Output: Enter string: necnrt Enter position 2
+Enter the character frame after stuffing:
+DLESTXnDLEETX
+frame after stuffing: DLESTXnDLEcDLEeDLEETX
+frame after stuffing: DLESTXnDLEcDLEecDLEETX
+frame after stuffing: DLESTXnDLEcDLEecnDLEETX
+frame after stuffing: DLESTXnDLEcDLEecnrDLEETX
+frame after stuffing: DLESTXnDLEcDLEecnrtDLEETX 
