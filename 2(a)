@@ -1,0 +1,46 @@
+#include<stdio.h> #include<string.h> #include<process..h>
+void main()
+{
+int i=0,j=0,n,pos; char a[20],b[50],ch;
+printf("enter string\n"); scanf("%s",&a); n=strlen(a);
+printf("enter position:\n"); scanf("%d",&pos); if(pos>n)
+{
+printf("invalid position"); scanf("%d",&pos);
+}
+//printf("enter the character\n");
+//ch=getche(); b[0]='D';
+b[1]='L';
+b[2]='E';
+b[3]='S';
+b[4]='T';
+b[5]='X'; j=6;
+while(i<n)
+{
+if(i==pos-1)
+{ b[j]='D';
+b[j+1]='L';
+b[j+2]='E';
+b[j+3]='ch';
+b[j+4]='D';
+b[j+5]='L';
+b[j+6]='E';
+j=j+7;
+}
+if(a[i]=='d'&&a[i+1]=='l'&&a[i+2]=='e')
+{ b[j]='D';
+b[j+1]='L';
+b[j+2]='E'; 
+j=j+3;
+}
+b[j]=a[i]; i++;
+j++; b[j]='D';
+b[j+1]='L';
+b[j+2]='E';
+b[j+3]='E';
+b[j+4]='T';
+b[j+5]='X';
+b[j+6]='/o';
+printf("\n frame after setting:\n"); printf("%s",b);
+}
+getch();
+}
